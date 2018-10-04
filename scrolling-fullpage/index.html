@@ -6,8 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" media="screen" href="/style.css" />
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='jquery.fullpage.min.js'></script> 
+  <script src='/path/to/fastclick.min.js'></script> 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js'></script> 
+  
 
-  <title>Fullpage Scroll</title>
+  <title>Fullpage Scroll</title>  
 </head>
 
 <body>
@@ -19,6 +24,10 @@
     <section><h1>Section 5</h1></section>
   </div>
 
+  <script type="text/javascript">
+    FastClick.attach(document.body);
+    $('#fullpage').fullpage();
+  </script>
 
 
 
